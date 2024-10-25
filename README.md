@@ -74,28 +74,10 @@ In developing this API, I prioritized addressing key challenges related to concu
 
 ## Performance Testing
 
-To evaluate the API's performance, I ran a benchmarking test using **ApacheBench** (ab):
+To evaluate the API's performance, I ran this benchmarking test using **ApacheBench** (ab):
 
 ```bash
 ab -n 1000 -c 150 -p post-data.json -T "application/json" http://localhost:80/transaction
 ```
 
-This test simulates a high volume of requests to ensure that the API can handle real-world scenarios effectively. It measures key performance metrics such as response time and throughput, helping to identify any potential bottlenecks in the system.
-
----
-
-## Getting Started
-
-Instructions for setting up and running the project locally can be found in the [Getting Started](#getting-started) section.
-
----
-
-## Conclusion
-
-This project showcases my approach to solving concurrency, throughput, and scalability challenges in a real-time application. I hope it provides insight into my thought process and technical skills in building efficient, reliable systems.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This test simulated a high volume of requests to ensure that the API can handle real-world scenarios effectively.
