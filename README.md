@@ -1,4 +1,4 @@
-# Node Kafka Producer Consumer API
+# Transactions API
 
 ![Node.js](https://img.shields.io/badge/Node.js-333333?style=flat&logo=nodedotjs&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-000000?style=flat&logo=apachekafka&logoColor=white)
